@@ -3,7 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import CarWinget from '../CarWinget/CarWinget';
 import Logo from './Logo'
-
+import { Link } from 'react-router-dom';
+import  './NavBar.css'
 
 
 
@@ -12,17 +13,18 @@ function NavBar() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
+          <Navbar.Brand to="#"><Logo /></Navbar.Brand>
           <div>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#features">Smartphones</Nav.Link>
-            <Nav.Link href="#pricing">TV´s</Nav.Link>
+            
+              <Link className="linkEstilizado" to='/'>Inicio</Link>
+              <Link className="linkEstilizado" to='/categoria/celulares'>Celulares</Link>
+              <Link className="linkEstilizado" to='/categoria/tvs'>TV´s</Link>
+              <Link className='linkEstilizado' to='/CarWinget'><CarWinget/></Link>
         
-            <div className='div-CarWinget'>
 
-            <Nav.Link href="#pricing"><CarWinget/></Nav.Link>
-            </div>
+         
+           
           </Nav>
           </div>
         </Container>
