@@ -1,5 +1,5 @@
 import { BsFillCartCheckFill } from 'react-icons/bs';
-import {useCartContext} from '../Context/CartContex';
+import {useCartContext} from '../Context/CartContext';
 import './CartWidget.css'; 
 
 const CartWidget = () => {

@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import ItemCount from '../ItemCount/ItemCount';
 import { Link } from 'react-router-dom';
-import { useCartContext } from '../Context/CartContex';
-import './ItemDetail.css'
+import { useCartContext } from '../Context/CartContext';
 
 
 const ItemDetail = ({item}) => {
@@ -18,16 +17,13 @@ const ItemDetail = ({item}) => {
     <div >
      <div className='col-md-4 offset-md-4'>
         <img src={item.img} className='img-fluid'alt={item.title}/>
-        <div className='descripcion'>
         <h2>{item.title}</h2>
         <p>{item.description}</p>
         <p> $ {item.price}</p>
         <p> Cantidad: {item.stock}</p>
-      {goToCart ? <Link to='/cart'>Terminar compra</Link> :<ItemCount stock={10} initial={1} onAdd={onAdd} />}
-
-        </div>
      </div>
      <div>
+      {goToCart ? <Link to='/cart'>Terminar compra</Link> :<ItemCount stock={10} initial={1} onAdd={onAdd} />}
      </div>
      </div>
   )

@@ -16,14 +16,16 @@ function NavBar() {
           <Navbar.Brand to="#"><Logo /></Navbar.Brand>
           <div>
           <Nav className="me-auto">
+          <Navbar.Toggle aria-controls="navbar-nav" />
+           <Navbar.Collapse id="navbar-nav">
             
               <Link className="linkEstilizado" to='/'>Inicio</Link>
-              <Link className="linkEstilizado" to='/categoria/celulares'>Celulares</Link>
-              <Link className="linkEstilizado" to='/categoria/tvs'>TV´s</Link>
-              <Link className='linkEstilizado' to='/CarWinget'><CarWinget/></Link>
+              <Link className="linkEstilizado" to='/category/celulares'>Celulares</Link>
+              <Link className="linkEstilizado" to='/category/tvs'>TV´s</Link>
+              <Link className='linkEstilizado' to='/cart'><CarWinget/></Link>
         
 
-         
+              </Navbar.Collapse>
            
           </Nav>
           </div>
