@@ -4,8 +4,8 @@
       "id": 0,
       "descripcion ": "El Samsung Galaxy S23 es un smartphone de gama alta con una pantalla de 6.2 pulgadas, cámara triple de 64 MP, 8 GB de RAM y 128 GB de almacenamiento interno.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/191529-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "1499.99",
-      "stock": "10",
+      "precio": 1499.99,
+      "stock": 10,
       "categoria": "celulares"
     },
     {
@@ -13,8 +13,8 @@
       "id": 1,
       "descripcion ": "La es un televisor de 55 pulgadas con tecnología UHD, resolución 4K, HDR y sonido Dolby Atmos.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/192174-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "1999.99",
-      "stock": "5",
+      "precio": 1999.99,
+      "stock": 5,
       "categoria": "tvs"
     },
     {
@@ -22,8 +22,8 @@
       "id": 2,
       "descripcion ": "El S23 ultra es un smartphone de gama alta con una pantalla de 7.1 pulgadas, cámara triple de 200 MP, 12 GB de RAM y 256 GB de almacenamiento interno.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/191435-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "1699.99",
-      "stock": "3",
+      "precio": 1699.99,
+      "stock": 3,
       "categoria": "celulares"
     },
     {
@@ -31,8 +31,8 @@
       "id": 3,
       "descripcion ": "La  OLED 4K S90C TV es un televisor de 65 pulgadas con tecnología OLED, resolución 4K, HDR y sonido Dolby Atmos.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/190753-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "2499.99",
-      "stock": "2",
+      "precio": 2499.99,
+      "stock": 2,
       "categoria": "tvs"
     },
     {
@@ -40,8 +40,8 @@
       "id": 4,
       "descripcion ": "El Galaxy S23 FE es un smartphone de gama alta con una pantalla de 6.43 pulgadas, cámara cuádruple de 48 MP, 8 GB de RAM y 256 GB de almacenamiento interno.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/192770-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "799.99",
-      "stock": "8",
+      "precio": 799.99,
+      "stock": 8,
       "categoria": "celulares"
     },
     {
@@ -49,8 +49,8 @@
       "id": 5,
       "descripcion ": "La Samsung QLED TV es un televisor de 75 pulgadas con tecnología QLED, resolución 8K, HDR y sonido Dolby Digital Plus.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/189981-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "3999.99",
-      "stock": "1",
+      "precio": 3999.99,
+      "stock": 1,
       "categoria": "tvs"
     },
     {
@@ -58,8 +58,8 @@
       "id": 6,
       "descripcion ": "El Galaxy S23+ es un smartphone de gama alta con una pantalla de 6.4 pulgadas, cámara triple de 50 MP, 8 GB de RAM y 256 GB de almacenamiento interno.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/191503-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "299.99",
-      "stock": "6",
+      "precio": 299.99,
+      "stock": 6,
       "categoria": "celulares"
     },
     {
@@ -67,8 +67,8 @@
       "id": 7,
       "descripcion ": "La  Neo QLED 8K es un televisor de 85 pulgadas con tecnología NeoQled, resolución 8K, HDR y escalado a 8K del todo el contenido .",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/192642-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "5000.99",
-      "stock": "4",
+      "precio": 5000.99,
+      "stock": 4,
       "categoria": "tvs"
     },
     {
@@ -76,8 +76,8 @@
       "id": 8,
       "descripcion ": "El Galaxy Z Fold5  es un smartphone de gama alta con una pantalla de 7.7 pulgadas, cámara triple de 48 MP, 12 GB de RAM y 256 GB de almacenamiento interno.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/189053-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "1999.99",
-      "stock": "7",
+      "precio": 1999.99,
+      "stock": 7,
       "categoria": "celulares"
     },
     {
@@ -85,8 +85,8 @@
       "id": 9,
       "descripcion ": "El Galaxy Z Flip5  es un smartphone de gama alta con una pantalla de 6.1 pulgadas, cámara triple de 32 MP, 8 GB de RAM y 256 GB de almacenamiento interno.",
       "imagen": "https://samsungar.vtexassets.com/arquivos/ids/189107-1200-auto?width=1200&height=auto&aspect=true",
-      "precio": "1799.99",
-      "stock": "9",
+      "precio": 1799.99,
+      "stock":9,
       "categoria": "celulares"
     }
   ]

@@ -1,0 +1,20 @@
+.col-md-4.offset-md-4{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-color: black;
+   width: auto;
+  }
+  .img-fluid {
+    width: 600px;
+}
+.descripcion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 150px;
+}

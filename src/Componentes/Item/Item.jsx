@@ -4,22 +4,19 @@ import './Item.css'
 
 const Item = ({item}) => {
   return (
-    <Link to={'/item/'+ item.id}className='text-decoration-none'>
-    <div className='container'>
-        <div  className='card border border-0'>
-            <img src={item.imagen} className='card-img-top' alt={item.nombre}/>
-            <div className='card-body text-center'>
-                <p children='card-text'>{item.nombre}</p>
-                <p>${item.precio}</p>
-                <button>Comprar</button>
-               
-
-            </div>
+    <Link to={"/item/" + item.id} className='text-decoration-none'>
+      <div className='container'>
+        <div className='card border border-0'>
+          <img src= {item.img} className='card-img-top' alt={item.title}/>
+           <div className='card-body text-center'>
+            <p className='card-text'>{item.title}</p>
+            <p className='card-text'>$ {item.price}</p>
+            <button>Comprar</button>
+           </div>
         </div>
-
-    </div>
+      </div>
     </Link>
   )
 }
 
-export default Item
+export default Item;

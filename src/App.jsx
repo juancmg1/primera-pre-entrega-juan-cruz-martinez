@@ -2,11 +2,11 @@
 import NavBar from './Componentes/NavBar/NavBar'
 import './App.css'
 import ItemListContainer from './Componentes/ItemListContainer/ItemListContainer'
-import ProductCard from './Componentes/NavBar/ProductCard'
-import Contador from './Componentes/NavBar/Contador'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Error from './Componentes/NavBar/Error'
 import ItemDetailContainer from './Componentes/ItemDetailContainer/ItemDetailContainer'
+import CartProvider from './Componentes/Context/CartContex'
 
 function App() {
   
@@ -14,6 +14,8 @@ function App() {
   return (
     <>
   <BrowserRouter>
+  <CartProvider>
+
     <NavBar />
   <Routes>
   <Route path={"/"} element={<ItemListContainer />} />
@@ -21,14 +23,13 @@ function App() {
           <Route path={'/item/:id'} element={<ItemDetailContainer />} />
           <Route path={'/*'} element={<Error />} />
   </Routes>
+  </CartProvider>
   
     
     
-    <ProductCard title='producto 1' price={950.000} img=''>
-      <button>Comprar ya</button>
-    </ProductCard>
+    
   </BrowserRouter>
-    <Contador />
+ 
     
     
       
