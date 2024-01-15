@@ -17,4 +17,8 @@
     justify-content: center;
     flex-direction: column;
     margin-right: 150px;
+    width: 350px;
+}
+.button.operation{
+    margin: 10px;
 }

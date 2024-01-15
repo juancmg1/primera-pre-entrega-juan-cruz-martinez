@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { useCartContext } from "../Context/CartContext"
 import {getFirestore, collection, addDoc, updateDoc, doc, getDoc} from 'firebase/firestore';
+import './CheckOut.css'
 
 export const CheckOut = () =>{
       const [nombre, setNombre] = useState('');
@@ -82,7 +83,7 @@ export const CheckOut = () =>{
     
 };
   return(
-        <div>
+        <div className="formulario">
           <h2> Complete el formulario para confirmar la compra </h2>
            <form onSubmit={manejadorFormulario}>
            
@@ -92,6 +93,7 @@ export const CheckOut = () =>{
                 <p>{producto.precio}</p>
               </div>
             ))}
+            <div className="label">
 
           <div>
            <label className="lab-check">Nombre:</label>
@@ -122,11 +124,12 @@ export const CheckOut = () =>{
              <input className="input-check" type="email" value={emailConfirmacion} onChange={(e) => setEmailConfirmacion(e.target.value)}
              />
           </div>
+            </div>
 
 
           {error && <p>{error}</p>}
           {ordenId && (
-            <p> ¡Gracias por tu compra ! Tu numero de seguimiento es: <br/> {''} {ordenId} {''} <br/></p>
+            <p className="p"> ¡Gracias por tu compra ! Tu numero de seguimiento es: <br/> {''} {ordenId} {''} <br/></p>
           )}
            <div>
             <button type="submit"> Enviar </button>

@@ -18,7 +18,8 @@ function App() {
    
     <CartProvider>
     <NavBar />
-    
+    <div className='cuerpo'>
+
     <Routes> 
 
      <Route path={'/'} element={ <ItemListContainer /> } />
@@ -30,6 +31,7 @@ function App() {
      <Route path={'*'} element={ <Error /> } />
 
     </Routes>
+    </div>
 
  </CartProvider>
   </BrowserRouter>

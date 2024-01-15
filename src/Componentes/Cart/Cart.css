@@ -1,0 +1,16 @@
+.total{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 1200px;
+    border-radius: 20px;
+    margin-left: 360px;
+    margin-top: 15px;
+}
+.p{
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 5px;
+
+}

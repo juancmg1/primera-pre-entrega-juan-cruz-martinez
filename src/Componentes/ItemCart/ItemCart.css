@@ -1,0 +1,19 @@
+.itemCart{
+    display: flex;
+    justify-content: center;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border-color: black;
+    width: 1200px;
+
+  }
+.img{
+    width: 600px;
+}

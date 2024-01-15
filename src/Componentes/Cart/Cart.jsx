@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCartContext } from '../Context/CartContext';
+import './Cart.css'
 
 import ItemCart from '../ItemCart/ItemCart';
 
@@ -21,7 +22,10 @@ const Cart = () => {
       {cart.map((product) => (
         <ItemCart key={product.id} product={product} />
       ))}
-      <p>total: $ {totalPrice()}</p>
+      <div className='total'>
+      <p className='p'>Total: $ {totalPrice()}</p>
+
+      </div>
    
       <Link to="/checkout">
         {' '}
